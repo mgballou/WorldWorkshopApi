@@ -15,4 +15,6 @@ public class World
     public string Genre { get; set; } = null!;
 
     public string Description { get; set; } = null!;
+    
+    public string[] People {get; set; } = null!;
 }

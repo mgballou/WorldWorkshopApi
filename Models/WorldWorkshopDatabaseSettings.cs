@@ -7,4 +7,6 @@ public class WorldWorkshopDatabaseSettings
     public string DatabaseName { get; set; } = null!;
 
     public string WorldsCollectionName { get; set; } = null!;
+
+    public string CharactersCollectionName { get; set; } = null!;
 }

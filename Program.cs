@@ -12,6 +12,11 @@ builder.Services.Configure<WorldWorkshopDatabaseSettings>(
 
 builder.Services.AddSingleton<WorldsService>();
 
+// add di service
+
+// add http context service
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

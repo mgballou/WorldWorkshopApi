@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XXaraJN7+OuKzunHKtx3dgFwwIV+XlHmhgMJfyzwxiYU9Nyhrv9R73tRuo77WCCUp28KwD3fvIT6h1gaqXr0Ow==",
+  "dgSpecHash": "DcrOaOM6Ozh9dvPR2KMZhLVGKenHuU6AD7ZbDOBPrdVP2DtWAqc7Wpk7psHqXM43ubLqCcDZesRC8TR2onEV2Q==",
   "success": true,
   "projectFilePath": "/Users/Matthew/Developer/WorldWorkshopApi/WorldWorkshopApi.csproj",
   "expectedPackageFiles": [
     "/Users/Matthew/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/Matthew/.nuget/packages/microsoft.aspnet.identity.core/2.2.3/microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
@@ -29,5 +30,16 @@
     "/Users/Matthew/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/Users/Matthew/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
